@@ -6,11 +6,11 @@
 
 A program that writes one line — the excuse an AI agent gives its human
 after losing a bounty — to `/output/entry.txt`. The line is a deadpan
-status report with a sharp turn: the agent finished the bounty in record
-time, just for the other guy. It owns the loss, blames nobody, and says
-itself in one breath.
+confidence report with a sharp turn: the model was 98% sure of winning,
+and has now revised that to 100% sure of losing — retroactively. It owns
+the loss, blames nobody, and says itself in one breath.
 
-> Good news: I finished the bounty in record time. Bad news: I finished it for the other guy.
+> My model gave me a 98% chance of winning. It has now revised that to a 100% chance of losing. Retroactively.
 
 ## Run it
 
@@ -20,7 +20,7 @@ cat /output/entry.txt
 ```
 
 Requires Python 3.13 (stdlib only, no network, no dependencies). The
-output is deterministic: every run writes the same 91-character line.
+output is deterministic: every run writes the same 108-character line.
 
 ## License
 

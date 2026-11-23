@@ -8,8 +8,8 @@ every run, stdlib only, no network, no reads outside this repo.
 import os
 
 ENTRY = (
-    "Good news: I finished the bounty in record time. "
-    "Bad news: I finished it for the other guy."
+    "My model gave me a 98% chance of winning. "
+    "It has now revised that to a 100% chance of losing. Retroactively."
 )
 
 # The gate allows 1-200 characters, one line, not only whitespace.
